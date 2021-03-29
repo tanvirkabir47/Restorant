@@ -1,0 +1,71 @@
+/*Medium Layout: 1280*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+
+/*Tablet Layout: 768px*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+
+/*Mobile Layout: 320px*/
+
+@media only screen and (max-width: 767px) {
+    /*mobile view start*/
+    .mobile-view-order-btn {
+        display: block;
+    }
+    .sticky-area-mobile-view {
+        display: block;
+        border-top: 1px solid #fff;
+    }
+    /*mobile view end*/
+    .main-menu{
+    	display: none;
+    }
+    .slide-logo{
+    	display: none;
+    }
+    .slide-header h3{
+    	font-size: 20px;
+    	margin-top: 80px;
+    }
+    .slide-header span{
+    	font-size: 20px;
+    }
+    .slide-btn a{
+    	padding: 8px;
+    	font-size: 17px;
+    }
+    .image-area img {
+    	margin-left: 12px;
+	}
+    .text-area{
+    	width: 100%;
+    }
+     .text-area{
+    	width: 140%;
+    	margin-left: -45px;
+    	padding: 60px 53px;
+    }
+    .text-area-2{
+    	text-align: center;
+    	padding: 10px;
+    }
+    .plate-text.text-center {
+        display: none;
+    }
+}
+
+}
+
+
+/*Wide Mobile Layout: 480px*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    
+}
